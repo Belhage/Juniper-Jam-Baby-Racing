@@ -1,3 +1,42 @@
 # Godot 4+ specific ignores
 .godot/
-/android/
+
+
+# Mirror Script
+*.bat
+
+
+
+# ignore all asset file types, only leaving the .import files
+
+Assets/**/*.svg
+Assets/**/*.jpg
+Assets/**/*.png
+Assets/**/*.blend
+Assets/**/*.glb
+Assets/**/*.gltf
+Assets/**/*.txt
+Assets/**/*.mtl
+Assets/**/*.csv
+Assets/**/*.obj
+Assets/**/*.ini
+Assets/**/*.tres
+Assets/**/*.mtlx
+Assets/**/*.usdc
+Assets/**/*.bin
+Assets/**/*.meta
+Assets/**/*.res
+Assets/**/*.blend1
+Assets/**/*.mp4
+Assets/**/*.jpeg
+Assets/**/*.translation
+Assets/**/*.ogg
+Assets/**/*.mp3
+Assets/**/*.psd
+Assets/**/*.DS_Store
+Assets/**/*.m4a
+
+
+# Uncomment to see non .import files
+#Assets/**/*.import
+
